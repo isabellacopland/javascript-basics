@@ -30,8 +30,8 @@ const roundDown = (a) => {
   return Math.floor(a);
 }
 
-function absolute (a) {
-  // your code here
+const absolute = (a) => {
+  return Math.abs(a);
 }
 
 function quotient (a, b) {
