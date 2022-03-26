@@ -34,8 +34,8 @@ const absolute = (a) => {
   return Math.abs(a);
 }
 
-function quotient (a, b) {
-  // your code here
+const quotient = (a, b) => {
+  return ~~(a / b);
 }
 
 function remainder (a, b) {
