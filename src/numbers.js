@@ -22,8 +22,8 @@ const round = (a) => {
   return Math.round(a);
 }
 
-function roundUp (a) {
-  // your code here
+const roundUp = (a) => {
+  return Math.ceil(a);
 }
 
 function roundDown (a) {
