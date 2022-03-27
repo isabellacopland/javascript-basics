@@ -31,12 +31,17 @@ const isGreaterThan = (a,b) => a > b;
 
 const isLessThanOrEqualTo = (a,b) => a <= b;
 
-function isOdd(a) {
-  // your code here
+const isOdd = (a) => {
+  if (a % 2 === 1) { return true; } 
+  else {
+    return false; 
+  }
 };
 
-function isEven(a) {
-  // your code here
+const isEven = (a) => {
+  if (a % 2 ===1) { return false; }
+  else 
+  {return true; }
 };
 
 function isSquare(a) {

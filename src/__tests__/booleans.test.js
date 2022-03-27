@@ -108,7 +108,7 @@ describe('isLessThanOrEqualTo', () => {
 });
 
 describe('isOdd', () => {
-  xit('returns whether the number is odd', () => {
+  it('returns whether the number is odd', () => {
     expect(isOdd(5)).toBe(true);
     expect(isOdd(6)).toBe(false);
     expect(isOdd(7)).toBe(true);
@@ -117,7 +117,7 @@ describe('isOdd', () => {
 });
 
 describe('isEven', () => {
-  xit('returns whether the number is even', () => {
+  it('returns whether the number is even', () => {
     expect(isEven(5)).toBe(false);
     expect(isEven(6)).toBe(true);
     expect(isEven(7)).toBe(false);
