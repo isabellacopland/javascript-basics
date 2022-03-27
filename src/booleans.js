@@ -19,9 +19,11 @@ const one = (a, b) => {
     }
   };
 
-function truthiness(a) {
-  // your code here
-};
+const truthiness = (a) => {
+  if (a) {
+    return true; } else {
+      return false; }
+  };
 
 function isEqual(a, b) {
   // your code here
