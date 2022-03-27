@@ -10,9 +10,7 @@ const countCharacters = string => string.length;
 
 const firstCharacter = string => string.charAt(0);
 
-function firstCharacters (string, n) {
-  // your code here
-};
+const firstCharacters = (string, n) => string.slice(0, n);
 
 module.exports = {
   sayHello,
