@@ -4,13 +4,20 @@ const both = (a, b) => a && b;
 
 const either = (a, b) => a || b;
 
-function none(a, b) {
-  // your code here
-};
+const none = (a, b) => {
+  if (a || b) {
+    return false;
+   } else {
+      return true; }
+  };
 
-function one(a, b) {
-  // your code here
-};
+const one = (a, b) => {
+  if (a != b) {
+    return true; }
+    else {
+      return false;
+    }
+  };
 
 function truthiness(a) {
   // your code here
