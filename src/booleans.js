@@ -1,8 +1,6 @@
 const negate = (a) => !a;
 
-function both(a, b) {
-  // your code here
-};
+const both = (a, b) => a && b;
 
 function either(a, b) {
   // your code here
