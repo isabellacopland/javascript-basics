@@ -4,9 +4,7 @@ const sayHello = function(string) {
 
 const uppercase = string => string.toUpperCase();
 
-function lowercase (string) {
-  // your code here
-};
+const lowercase = string => string.toLowerCase();
 
 function countCharacters (string) {
   // your code here
