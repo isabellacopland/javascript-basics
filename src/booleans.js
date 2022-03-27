@@ -57,8 +57,18 @@ const startsWith = (a, string) => {
   {return false;}
 };
 
-function containsVowels(string) {
-  // your code here
+const containsVowels = (string) => {
+  if (string.includes('a')) {return true;} 
+  if (string.includes('e')) {return true;}
+  if (string.includes('i')) {return true;}
+  if (string.includes('o')) {return true;}
+  if (string.includes('u')) {return true;}
+  if (string.includes('A')) {return true;} 
+  if (string.includes('E')) {return true;}
+  if (string.includes('I')) {return true;}
+  if (string.includes('O')) {return true;}
+  if (string.includes('U')) {return true;}
+  else {return false; }
 };
 
 function isLowerCase(string) {
