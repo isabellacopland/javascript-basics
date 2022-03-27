@@ -1,6 +1,4 @@
-function negate(a) {
-  // your code here
-};
+const negate = (a) => !a;
 
 function both(a, b) {
   // your code here
