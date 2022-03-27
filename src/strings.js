@@ -6,9 +6,7 @@ const uppercase = string => string.toUpperCase();
 
 const lowercase = string => string.toLowerCase();
 
-function countCharacters (string) {
-  // your code here
-};
+const countCharacters = string => string.length;
 
 function firstCharacter (string) {
   // your code here
