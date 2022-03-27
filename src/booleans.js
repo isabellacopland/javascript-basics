@@ -2,9 +2,7 @@ const negate = (a) => !a;
 
 const both = (a, b) => a && b;
 
-function either(a, b) {
-  // your code here
-};
+const either = (a, b) => a || b;
 
 function none(a, b) {
   // your code here
