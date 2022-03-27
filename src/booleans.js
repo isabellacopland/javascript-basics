@@ -27,9 +27,7 @@ const truthiness = (a) => {
 
 const isEqual = (a, b) => a === b;
 
-function isGreaterThan(a, b) {
-  // your code here
-};
+const isGreaterThan = (a,b) => a > b;
 
 function isLessThanOrEqualTo(a, b) {
   // your code here
