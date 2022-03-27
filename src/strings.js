@@ -8,9 +8,7 @@ const lowercase = string => string.toLowerCase();
 
 const countCharacters = string => string.length;
 
-function firstCharacter (string) {
-  // your code here
-};
+const firstCharacter = string => string.charAt(0);
 
 function firstCharacters (string, n) {
   // your code here
