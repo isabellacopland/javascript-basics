@@ -28,7 +28,7 @@ const removeNthElement = (index, array) => {
 };
 
 const numbersToStrings = numbers => {
-  // your code here
+  return Array.from(numbers.join(''));
 };
 
 const uppercaseWordsInArray = strings => {
