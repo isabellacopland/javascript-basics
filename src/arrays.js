@@ -19,8 +19,7 @@ const addToArray = (element, array) => {
 };
 
 const addToArray2 = (element, array) => {
-  array.push(element);
-  console.log(array);
+  return array.concat(element);
 };
 
 const removeNthElement = (index, array) => {
@@ -38,7 +37,7 @@ const uppercaseWordsInArray = strings => {
 };
 
 const reverseWordsInArray = strings => {
-  // your code here
+return strings.split("").reverse().join();
 };
 
 const onlyEven = numbers => {
