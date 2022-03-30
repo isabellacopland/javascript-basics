@@ -43,7 +43,9 @@ return strings.map(elements => {
 };
 
 const onlyEven = numbers => {
-  // your code here
+  return numbers.filter(element => {
+    return element % 2 === 0;
+  });
 };
 
 const removeNthElement2 = (index, array) => {
