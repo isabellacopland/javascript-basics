@@ -55,7 +55,8 @@ return result;
 };
 
 const elementsStartingWithAVowel = strings => {
-
+newArray = Array.from(strings);
+return newArray.filter(element => /^[aeiou]/i.test(element));
 };
 
 const removeSpaces = string => {
