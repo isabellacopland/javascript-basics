@@ -55,11 +55,11 @@ return result;
 };
 
 const elementsStartingWithAVowel = strings => {
-  // your code here
+
 };
 
 const removeSpaces = string => {
-  // your code here
+return string.replace(/\s+/g, '');
 };
 
 const sumNumbers = numbers => {
