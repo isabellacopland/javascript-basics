@@ -64,7 +64,8 @@ return string.replace(/\s+/g, '');
 };
 
 const sumNumbers = numbers => {
-
+newArray = Array.from(numbers);
+return newArray.reduce((x, y) => x+y);
 };
 
 const sortByLastLetter = strings => {
