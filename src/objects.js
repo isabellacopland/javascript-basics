@@ -43,9 +43,16 @@ return people.reduce((prev, people) => prev + people.age, 0) / people.length;
 };
 
 const createTalkingPerson = (name, age) => {
-  function introduce(strangersName) {
-    return 'Hi ${strangersName}, my name is ${name} and I am ${age}!';
+function introduce(strangersName) {
+  return `Hi ${strangersName}, my name is ${name} and I am ${age}!`;
+}
+return {
+  name: name,
+  age: age,
+  introduce: strangersName => {
+    return `Hi ${strangersName}, my name is ${name} and I am ${age}!`;
   }
+};
 };
 
 module.exports = {
